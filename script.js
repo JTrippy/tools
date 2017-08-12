@@ -14,7 +14,7 @@ function cardFaint(type){
             location.replace('https://jtrippy.github.io/screenshoteditor/');
         }
         else {
-            location.replace('https://github.com/JTrippy/chatparser');
+            location.replace('https://jtrippy.github.io/chatparser/');
         }
     },750);
 }
