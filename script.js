@@ -11,10 +11,10 @@ function cardFaint(type){
     setTimeout(function(){
         $(".choice").remove();
         if (type === 'edit'){
-            location.href('https://jtrippy.github.io/screenshoteditor/');
+            location.replace('https://jtrippy.github.io/screenshoteditor/');
         }
         else {
-            location.href('https://github.com/JTrippy/chatparser');
+            location.replace('https://github.com/JTrippy/chatparser');
         }
     },750);
 }
